@@ -1,13 +1,16 @@
 import React from "react";
+import AppHeader from "../AppHeader/AppHeader";
+import Footer from "../Footer/Footer";
+import Main from "../Main/Main";
 import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>Edit and save to reload.</p>
-      </header>
-    </div>
+    <>
+      <AppHeader />
+      <Main />
+      <Footer />
+    </>
   );
 }
 
